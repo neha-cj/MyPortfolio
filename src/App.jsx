@@ -33,21 +33,30 @@ function App() {
         </div>
       </div>
 
-      <div className="flex flex-col items-start mt-40 text-center ml-20">
-        <h2 className="text-4xl mb-4 text-[#95556b]">ABOUT ME</h2>
-        <div className="text-xl text-left text-[#95556b]">
-            <p> I am passionate about FrontEnd WebDevelopment and problem solving.
-             <br/><br/>Here are Some of My Skills:
+      <div className="px-6 py-12 flex flex-col md:flex-row items-center justify-center gap-10">
+        
+        <div className="text-xl max-w-2xl text-[#bb768e]">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#95556b]">ABOUT ME</h2>
+            <p className="text-lg mb-4"> I am passionate about FrontEnd WebDevelopment and problem solving.
             </p>
-            <ul className="list-inside mt-1">
+            <p className="mb-4">Here are some technologies I have been working with:</p>
+            <div className="grid grid-cols-2 gap-x-10 gap-y-2 mb-6 text-sm list-disc list-inside">
               <li>Python</li>
               <li>Java</li>
               <li>JavaScript</li>
               <li>React</li>
               <li>HTML and CSS</li>
               <li>Tailwind CSS</li>
-            </ul>
-        </div>
+            </div>
+          </div>
+          {/*
+          <div className="flex-shrink-0">
+            <img
+                src="/your-image-path.jpg"
+                alt="Profile"
+                className="rounded-xl w-72 h-72 object-cover shadow-lg"
+            />
+          </div>  */}
       </div>
 
       <div className="mt-40 text-center ml-20 text-[#95556b]">
