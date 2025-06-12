@@ -28,13 +28,13 @@ const projects = [
 function App() {
   return (
     <>
-      <nav className="px-4 py-3 flex justify-between items-center">
-        <div className="text-xl">Neha C J</div>
-        <ul className="flex space-x-6 font-medium">
-          <li className="hover:text-[#e8b467] cursor-pointer">Home</li>
-          <li className="hover:text-[#e8b467] cursor-pointer">About</li>
-          <li className="hover:text-[#e8b467] cursor-pointer">Projects</li>
-          <li className="hover:text-[#e8b467] cursor-pointer">Contact</li>
+      <nav className="sticky top-0 bg-[#231f31] px-4 py-3 flex justify-between items-center">
+        <div className="text-sm">Neha C J</div>
+        <ul className="hidden md:flex text-sm space-x-6 font-roboto">
+          <li className="hover:text-[#1e8186] cursor-pointer">Home</li>
+          <li className="hover:text-[#1e8186] cursor-pointer">About</li>
+          <li className="hover:text-[#1e8186] cursor-pointer">Projects</li>
+          <li className="hover:text-[#1e8186] cursor-pointer">Contact</li>
         </ul>
       </nav>
 
@@ -43,7 +43,7 @@ function App() {
         <h1 className="text-7xl text-center">PORTFOLIO</h1>
         <h2 className="text-4xl py-10" >Hey, This is Neha</h2>
 
-        <div className="max-w-xl text-center md:text-left">
+        <div className="max-w-xl text-center text-xl">
           <p>I am passionate about FrontEnd WebDevelopment and problem solving.</p>
           <br/>
           <p>I’m a student who enjoys coding and learning new things. 
@@ -53,7 +53,6 @@ function App() {
       </section>
 
       <div className="px-6 py-12 flex flex-col md:flex-row items-center justify-center gap-10">
-        
         <div className="text-xl ml-3">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 ">About Me</h2>
             <p className="text-lg mb-4"> I am currently pursuing a BTech degree in Computer Science Engineering at Model Engineering College, Thrikkakara.
