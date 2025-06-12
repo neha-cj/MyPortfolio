@@ -54,7 +54,7 @@ function App() {
 
       <div className="px-6 py-12 flex flex-col md:flex-row items-center justify-center gap-10">
         
-        <div className="text-xl max-w-2xl">
+        <div className="text-xl">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 ">About Me</h2>
             <p className="text-lg mb-4"> I am currently pursuing a BTech degree in Computer Science Engineering at Model Engineering College, Thrikkakara.
               I aspire to contribute to meaningful software solutions and keep evolving as a developer.
