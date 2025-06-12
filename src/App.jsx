@@ -6,21 +6,21 @@ const projects = [
     description:
       "An application created with a Flask and Supabase back-end and a javascript front-end.",
     tech: "Javascript, Python (Flask), SupaBase, HTML / CSS",
-    github: "#",
+    github: "https://github.com/neha-cj/ToDoList",
   },
   {
     title: "BlogWebApplicatiton",
     description:
       "Website to create edit and delete blogs with Express.js",
     tech: "Javascript, HTML / CSS",
-    github: "#",
+    github: "https://github.com/neha-cj/BlogWebApplication",
   },
   {
     title: "BlockChain EVoting WebAppliaction",
     description:
       "Built and implemented an E – Voting System using Blockchain technology for conducting secure and efficient elections.",
     tech: "React, Solidity, Ganache, Truffle, Web3.js",
-    github: "#",
+    github: "https://github.com/neha-cj/BlockchainVotingApp",
   }
  
 ];
@@ -54,7 +54,7 @@ function App() {
 
       <div className="px-6 py-12 flex flex-col md:flex-row items-center justify-center gap-10">
         
-        <div className="text-xl">
+        <div className="text-xl ml-3">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 ">About Me</h2>
             <p className="text-lg mb-4"> I am currently pursuing a BTech degree in Computer Science Engineering at Model Engineering College, Thrikkakara.
               I aspire to contribute to meaningful software solutions and keep evolving as a developer.
@@ -80,7 +80,7 @@ function App() {
           </div>  
       </div>
 
-      <section className="px-6 py-20 min-h-screen">
+      <section className="px-6 py-20 min-h-screen ml-3">
       <h2 className="text-4xl font-bold mb-12">My Projects</h2>
 
       <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
