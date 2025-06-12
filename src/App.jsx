@@ -38,9 +38,9 @@ function App() {
         </ul>
       </nav>
 
-      <h1 className="text-7xl tracking-[0.2em] text-center mt-10">PORTFOLIO</h1>
 
-      <section className="flex flex-col items-center justify-center mt-20 mb-40 px-4">
+      <section className="flex flex-col items-center justify-center mt-20 mb-20 px-4">
+        <h1 className="text-7xl text-center">PORTFOLIO</h1>
         <h2 className="text-4xl py-10" >Hey, This is Neha</h2>
 
         <div className="max-w-xl text-center md:text-left">
@@ -68,7 +68,7 @@ function App() {
               <li>HTML and CSS</li>
               <li>Tailwind CSS</li>
             </div>
-            <p className="text-sm">I also love Reading Books, Learning French and playing Acoustic Guitar (self taught)</p>
+            <p className="text-sm">I also love Reading Books, playing Acoustic Guitar (self taught) and play video games in my free time</p>
           </div>
           
           <div className="flex-shrink-0 transition-transform duration-500 relative hover:scale-105">
