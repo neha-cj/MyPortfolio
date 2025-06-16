@@ -30,7 +30,7 @@ function App() {
     <>
       <nav className="sticky top-0 bg-[#231f31] px-4 py-3 flex justify-between items-center">
         <div className="text-sm">Neha C J</div>
-        <ul className="hidden md:flex text-sm space-x-6 font-roboto">
+        <ul className="sm:flex text-sm space-x-6 font-roboto">
           <li className="hover:text-[#1e8186] cursor-pointer">Home</li>
           <li className="hover:text-[#1e8186] cursor-pointer">About</li>
           <li className="hover:text-[#1e8186] cursor-pointer">Projects</li>
@@ -73,8 +73,8 @@ function App() {
           
           <div className="flex-shrink-0 transition-transform duration-500 relative hover:scale-105">
             <img
-                src="bali.jpg"
-                alt=" dummy Profile"
+                src="neha_portfolio.jpg"
+                alt="Profile"
                 className="rounded-xl w-72 h-72 object-cover shadow-lg"
             />
           </div>  
@@ -83,7 +83,7 @@ function App() {
       {/* Projects Section*/}
       <section className="px-6 py-20 min-h-screen">
         <h2 className="text-4xl font-bold mb-12">My Projects</h2>
-        <div className="grid gap-6 grid-cols-1  lg:grid-cols-3">
+        <div className="max-w-30 grid gap-6 grid-cols-1 lg:grid-cols-3 ">
           {projects.map((project, index) => (
             <div
               key={index}
