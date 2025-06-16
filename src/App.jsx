@@ -1,4 +1,4 @@
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope} from "react-icons/fa";
 import { BsFolder2Open } from "react-icons/bs";
 const projects = [
   {
@@ -81,7 +81,7 @@ function App() {
       </div>
 
       {/* Projects Section*/}
-      <section className="px-6 py-20 min-h-screen">
+      <section className="px-6 py-20">
         <h2 className="text-4xl font-bold mb-12">My Projects</h2>
         <div className="max-w-30 grid gap-6 grid-cols-1 lg:grid-cols-3 ">
           {projects.map((project, index) => (
@@ -108,8 +108,28 @@ function App() {
         </div>
       </section>
 
+      {/*Contact*/}
+      <section className="px-6 py-6">
+        <h3 className="text-2xl font-semibold text-center">SAY HI!</h3>
+        <div className="mt-10 flex justify-center space-x-20 ">
+          <a href="https://github.com/neha-cj" target="_blank" rel="noopener noreferrer"
+            className="text-3xl hover:text-[#1e8186] transition-transform transform hover:scale-110"
+          ><FaGithub />
+          </a>
+          <a
+            href="cjneha890@gmail.com"
+            className="text-3xl font-medium hover:text-[#1e8186] transition-transform transform hover:scale-110"
+          ><FaEnvelope />
+          </a>
+          <a href="https://linkedin.com/in/neha-c-j-85b37b256/4" target="_blank" rel="noopener noreferrer"
+            className="text-3xl hover:text-[#1e8186] transition-transform transform hover:scale-110"
+          ><FaLinkedin />
+          </a>
+        </div>
+      </section>
+
       {/*footer*/}
-      <footer className=" flex flex-row items-center justify-center">
+      <footer className=" flex flex-row items-center justify-center mt-10">
           <p>Created and designed by Neha C J</p>
       </footer> 
     </>
