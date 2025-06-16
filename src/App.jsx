@@ -12,7 +12,7 @@ const projects = [
     title: "BlogWebApplicatiton",
     description:
       "Website to create edit and delete blogs with Express.js",
-    tech: "Javascript, HTML / CSS",
+    tech: "Expressjs, Javascript, HTML / CSS",
     github: "https://github.com/neha-cj/BlogWebApplication",
   },
   {
@@ -28,9 +28,9 @@ const projects = [
 function App() {
   return (
     <>
-      <nav className="sticky top-0 bg-[#231f31] px-4 py-3 flex justify-between items-center">
+      <nav className="sticky top-0 bg-[#bbbac3] px-4 py-3 flex justify-between items-center">
         <div className="text-sm">Neha C J</div>
-        <ul className="sm:flex text-sm space-x-6 font-roboto">
+        <ul className="invisible sm:visible flex text-sm space-x-6 font-roboto">
           <li className="hover:text-[#1e8186] cursor-pointer">Home</li>
           <li className="hover:text-[#1e8186] cursor-pointer">About</li>
           <li className="hover:text-[#1e8186] cursor-pointer">Projects</li>
@@ -71,7 +71,7 @@ function App() {
             <p className="text-sm">I also love Reading Books, playing Acoustic Guitar (self taught) and play video games in my free time</p>
           </div>
           
-          <div className="flex-shrink-0 transition-transform duration-500 relative hover:scale-105">
+          <div className="flex-shrink-0 transition-transform duration-500 hover:scale-105">
             <img
                 src="neha_portfolio.jpg"
                 alt="Profile"
