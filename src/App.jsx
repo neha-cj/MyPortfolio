@@ -28,7 +28,7 @@ const projects = [
 function App() {
   return (
     <>
-      <nav className="sticky top-0 bg-[#bbbac3] px-4 py-3 flex justify-between items-center">
+      <nav className="sticky top-0 bg-[#d7d5ea] px-4 py-3 flex justify-between items-center">
         <div className="text-sm">Neha C J</div>
         <ul className="invisible sm:visible flex text-sm space-x-6 font-roboto">
           <li className="hover:text-[#1e8186] cursor-pointer">Home</li>
