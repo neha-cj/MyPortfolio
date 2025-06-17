@@ -31,10 +31,10 @@ function App() {
       <nav className="sticky top-0 bg-[#d7d5ea] px-4 py-3 flex justify-between items-center">
         <div className="text-sm">Neha C J</div>
         <ul className="invisible sm:visible flex text-sm space-x-6 font-roboto">
-          <li className="hover:text-[#1e8186] cursor-pointer">Home</li>
-          <li className="hover:text-[#1e8186] cursor-pointer">About</li>
-          <li className="hover:text-[#1e8186] cursor-pointer">Projects</li>
-          <li className="hover:text-[#1e8186] cursor-pointer">Contact</li>
+          <li><a href="#" className="hover:text-[#1e8186] cursor-pointer">Home</a></li>
+          <li><a href="#about" className="hover:text-[#1e8186] cursor-pointer"> About</a></li>
+          <li><a href="#projects" className="hover:text-[#1e8186] cursor-pointer">Projects</a></li>
+          <li><a href="#contact" className="hover:text-[#1e8186] cursor-pointer">Contact</a></li>
         </ul>
       </nav>
 
@@ -53,7 +53,7 @@ function App() {
       </div>
 
       {/* About section*/}
-      <div className="px-6 py-12 flex flex-col lg:flex-row items-center justify-center gap-10">
+      <div id="about" className="px-6 py-12 flex flex-col lg:flex-row items-center justify-center gap-10">
         <div className="text-xl ml-3">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 ">About Me</h2>
             <p className="text-lg mb-4"> I am currently pursuing a BTech degree in Computer Science Engineering at Model Engineering College, Thrikkakara.
@@ -81,7 +81,7 @@ function App() {
       </div>
 
       {/* Projects Section*/}
-      <section className="px-6 py-20">
+      <section id="projects" className="px-6 py-20">
         <h2 className="text-4xl font-bold mb-12">My Projects</h2>
         <div className="max-w-30 grid gap-6 grid-cols-1 lg:grid-cols-3 ">
           {projects.map((project, index) => (
@@ -109,7 +109,7 @@ function App() {
       </section>
 
       {/*Contact*/}
-      <section className="px-6 py-6">
+      <section id="contact" className="px-6 py-6">
         <h3 className="text-2xl font-semibold text-center">SAY HI!</h3>
         <div className="mt-10 flex justify-center space-x-20 ">
           <a href="https://github.com/neha-cj" target="_blank" rel="noopener noreferrer"
@@ -117,7 +117,7 @@ function App() {
           ><FaGithub />
           </a>
           <a
-            href="cjneha890@gmail.com"
+            href="mailto:cjneha890@gmail.com"
             className="text-3xl font-medium hover:text-[#1e8186] transition-transform transform hover:scale-110"
           ><FaEnvelope />
           </a>
